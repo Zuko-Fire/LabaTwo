@@ -31,11 +31,16 @@ void Binary::summation()
 	bitset<10> bits3 = num1.to_ullong() + num2.to_ullong();
 	cout <<"Результат: " << bits3 << endl;
 	cout << "1.Перевести в десятичную систему счисления" << endl;
-	//if (i==1)
+	cin >> i;
+	if (i==1)
+	{
+		toDecimal(bits3);
+	}
 
 }
 void Binary::subtracting()
 {
+	int i = 0;
 	bitset<10>num1, num2;
 	cout << "Введите первое число" << endl;
 	cin >> num1;
@@ -44,9 +49,16 @@ void Binary::subtracting()
 
 	bitset<10> bits3 = num1.to_ullong() - num2.to_ullong();
 	cout << "Результат: " << bits3 << endl;
+	cout << "1.Перевести в десятичную систему счисления" << endl;
+	cin >> i;
+	if (i == 1)
+	{
+		toDecimal(bits3);
+	}
 }
 void Binary:: multiplication()
 {
+	int i = 0;
 	bitset<10>num1, num2;
 	cout << "Введите первое число" << endl;
 	cin >> num1;
@@ -55,9 +67,16 @@ void Binary:: multiplication()
 
 	bitset<10> bits3 = num1.to_ullong() * num2.to_ullong();
 	cout << "Результат: " << bits3 << endl;
+	cout << "1.Перевести в десятичную систему счисления" << endl;
+	cin >> i;
+	if (i == 1)
+	{
+		toDecimal(bits3);
+	}
 }
 void Binary::dividing()
 {
+	int i = 0;
 	bitset<10>num1, num2;
 	cout << "Введите первое число" << endl;
 	cin >> num1;
@@ -66,6 +85,12 @@ void Binary::dividing()
 	if (num2 != 0) {
 		bitset<10> bits3 = num1.to_ullong() / num2.to_ullong();
 		cout << "Результат: " << bits3 << endl;
+		cout << "1.Перевести в десятичную систему счисления" << endl;
+		cin >> i;
+		if (i == 1)
+		{
+			toDecimal(bits3);
+		}
 	}
 	else
 	{
