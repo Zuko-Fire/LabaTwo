@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Binary">
+    <Position X="4.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAABAQAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Binary.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decimal" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Decimal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Integer">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAQAAAAAAAAAAAAAAABAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Integer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

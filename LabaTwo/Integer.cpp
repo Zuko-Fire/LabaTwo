@@ -14,6 +14,7 @@ void Integer::summation()
 
 	
 	cout << ((num1 + num2)) << endl;
+	cout << endl;
 }
 void Integer::subtracting()
 {
@@ -25,6 +26,7 @@ void Integer::subtracting()
 
 
 	cout << ((num1 - num2)) << endl;
+	cout << endl;
 }
 void Integer::multiplication()
 {
@@ -36,6 +38,7 @@ void Integer::multiplication()
 
 
 	cout << ((num1 * num2)) << endl;
+	cout << endl;
 }
 void Integer::dividing()
 {
@@ -48,11 +51,13 @@ void Integer::dividing()
 
 if (num2 !=0)
 {
-	cout<<(num1/num2);
+	cout<<(num1/num2)<<endl;
+	cout << endl;
 }
 else
 {
 	cout << "На ноль делить нельзя!" << endl << endl;
+	cout << endl;
 	
 }
 }
