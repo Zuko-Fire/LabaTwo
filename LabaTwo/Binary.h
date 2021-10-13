@@ -8,7 +8,7 @@ class Binary : public Integer
 	void subtracting() override;
 	void multiplication()override;
 	void dividing()override;
-	void toDecimal(bitset<10>num);
+	void toDecimal(bitset<32>num);
 	void toDecimal();
 };
 
